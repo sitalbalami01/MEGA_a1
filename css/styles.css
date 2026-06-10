@@ -1,0 +1,40 @@
+
+ul {
+    display: flex;
+    gap: 100px;
+}
+
+li {
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    color: blue;
+}
+
+li a {
+     color: white;
+}
+
+
+.even {
+    height: 100px;
+    width: 100px;
+     background-color: blue;
+}
+
+.odd {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#roll1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+/* border-width: ;
+border-style: ;
+border-color: ; *
