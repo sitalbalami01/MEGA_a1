@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, td, th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+            background-color: red;
+             color: white;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+    <table>
+        <tr>
+            <th>name</th>
+            <th>roll no</th>
+            <th>gpa</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Ram</td>
+            <td colspan="2">1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3.60</td>
+        </tr>
+        <tr>
+           
+            <td>3</td>
+            <td>3.25</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
