@@ -11,11 +11,15 @@ console.log(array3);
 console.log(array4);
 console.log(array5);
 
-
-function logger(...items){
-    for(item of items){
-        console.log(item);
+//rest operator euta function ma euta matra huna parxa
+//fucntion function_name(...rest1, ...rest2);
+//rest operator chai last parameter nai huna paryo
+function team(captain, vice_captain, ...teams){
+    console.log(captain);
+    console.log(vice_captain);
+    for(team of teams){
+        console.log(team);
     }
 }
 
-logger(1, 2, 3);
+team("ram", "shyam", "member1", "member2", "memeber3", "member4");     
