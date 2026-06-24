@@ -17,3 +17,8 @@ header.style.backgroundColor = "blue"; // background-color: "blue";
 
 const paragraph = document.querySelector("p"); //querySelectorAll() , querySelector()[0];
 paragraph.style.backgroundColor = "green";
+
+//to get all the elements of that particular tag, in this case: div
+const divs = document.querySelectorAll("div");
+console.log(divs);
+console.log(divs[2])
